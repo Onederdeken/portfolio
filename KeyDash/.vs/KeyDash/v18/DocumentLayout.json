@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\views\\usercontrols\\topmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:views\\usercontrols\\topmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\views\\usercontrols\\topmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:views\\usercontrols\\topmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T12:21:37.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Topmenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Views\\UserControls\\Topmenu.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\UserControls\\Topmenu.xaml.cs",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Views\\UserControls\\Topmenu.xaml.cs",
+              "RelativeToolTip": "Views\\UserControls\\Topmenu.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T12:10:16.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Topmenu.xaml",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Views\\UserControls\\Topmenu.xaml",
+              "RelativeDocumentMoniker": "Views\\UserControls\\Topmenu.xaml",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Views\\UserControls\\Topmenu.xaml",
+              "RelativeToolTip": "Views\\UserControls\\Topmenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T12:06:21.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T09:52:53.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
