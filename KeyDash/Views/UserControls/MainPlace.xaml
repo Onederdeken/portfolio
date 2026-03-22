@@ -13,11 +13,19 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="70"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="1" Name="TextBoxMainText" Grid.Column="1" HorizontalAlignment="Center" MaxHeight="400" 
-            TextAlignment="Justify" FontSize="50"   Text="{Binding Text, UpdateSourceTrigger=PropertyChanged}" TextWrapping="WrapWithOverflow" />
-        <Line VerticalAlignment="Center" HorizontalAlignment="Center" Fill="Transparent" Grid.Row="0" Stroke="Black"  
+        <TextBlock Grid.Row="1" Name="TextBoxMainText" Grid.Column="1"
+                   HorizontalAlignment="Center" MaxHeight="400" 
+            TextAlignment="Justify" FontSize="50"   Text="{Binding Text}"
+                   TextWrapping="Wrap"/>
+        <Line Style="{StaticResource OverlayStyleProgressBar}" Name="ProgressLine"
+              VerticalAlignment="Center" HorizontalAlignment="Center"
+              Fill="Transparent" Grid.Row="0" Stroke="Black"  
               StrokeThickness= "2" X1="0" Y1="0" X2="500" Y2="0"/>
-        <Button Name="BtnStart" Grid.Row="2" Height="70"  Background="Transparent" BorderThickness="0" FontSize="35" Focusable="False" Content="Start" Click="BtnStart_Click" />
-        <local:TimerUi Grid.Row="1" x:Name="Timers"/>
+        <Button Command="{Binding DataContext.StartGame,
+            RelativeSource={RelativeSource AncestorType=Window}}"
+                Name="BtnStart" Grid.Row="2"
+                Height="70"  Background="Transparent" BorderThickness="0"
+                FontSize="35" Focusable="False" Content="Start"  />
+        
     </Grid>
 </UserControl>

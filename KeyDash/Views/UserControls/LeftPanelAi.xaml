@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="KeyDash.Views.UserControls.LeftPanelAi"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:KeyDash.Views.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel   Name="Exp"  Grid.Column="0"
+                VerticalAlignment="Center" Margin="10,0,0,0">
+        <Expander Margin="0,10" FontSize="35" Header="General">
+            <StackPanel  Margin="10,5">
+                <Label FontSize="25" Content="Кол-во символов"/>
+                <Label FontSize="25" Content="Язык генерации"/>
+            </StackPanel>
+        </Expander>
+        <Expander Margin="0,10" FontSize="35" Header="Complexity Text">
+            <StackPanel  Margin="10,5">
+                <Label FontSize="25" Content="Vocabulary level"/>
+                <Label FontSize="25" Content="Case sensitive"/>
+                <Label FontSize="25" Content="Спец символы"/>
+            </StackPanel>
+        </Expander>
+        <Expander Margin="0,10" FontSize="35" Header="Theme&amp;Style">
+            <StackPanel Margin="10,5">
+                <Label FontSize="25" Content="Styles"/>
+                <Label FontSize="25" Content="Professions"/>
+                <Label FontSize="25" Content="Random fact"/>
+                <Label FontSize="25" Content="Tone of Voice"/>
+            </StackPanel>
+        </Expander>
+    </StackPanel>
+</UserControl>

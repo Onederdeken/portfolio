@@ -7,9 +7,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
              Focusable="False">
-    <Grid Name="TimeOverlay" Visibility="Collapsed" Background="#CCFFFFFF">
-        <TextBox  Name="Timetext" Text="{Binding Seconds, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" HorizontalAlignment="Center" 
-                  Background="Transparent" BorderThickness="0" FontSize="300"/>
-
+    <Grid Name="TimeOverlay" Background="#CCFFFFFF" Style="{StaticResource OverlayStyleTimer}">
+        <TextBlock  Name="Timetext" Text="{Binding Seconds}" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                  Background="Transparent"  FontSize="300"/>
     </Grid>
 </UserControl>

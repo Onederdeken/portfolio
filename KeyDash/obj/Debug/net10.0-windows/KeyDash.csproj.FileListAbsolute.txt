@@ -26,3 +26,11 @@ C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\
 C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\Views\UserControls\MainPlace.baml
 C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\Views\UserControls\TimerUi.g.cs
 C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\Views\UserControls\TimerUi.baml
+C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\Resource\Styles\OverlayStyles.baml
+C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\App.baml
+C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\Resource\Styles\StyleMenu.baml
+C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\Resource\Styles\TemplayteLeftPanel.baml
+C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\Views\UserControls\LeftPanelFile.g.cs
+C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\Views\UserControls\LeftPanelFile.baml
+C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\Views\UserControls\LeftPanelAi.g.cs
+C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\Views\UserControls\LeftPanelAi.baml

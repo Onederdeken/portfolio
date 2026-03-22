@@ -4,28 +4,50 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:KeyDash.Views.UserControls"
+             xmlns:modes="clr-namespace:KeyDash.Models"
              mc:Ignorable="d" 
              Height="25" d:DesignWidth="800"
              >
-    <Grid Background="White">
-        <Button Name="BtnExit" Grid.Row="0" Height="25" Width="40" FontSize="15"  HorizontalAlignment="Right" Background="Transparent" BorderThickness="0"
-                Click="BtnExit_Click" Focusable="False">
+    <Grid  IsEnabled="True"  Background="White">
+        <Button  Name="BtnExit" Grid.Row="0" Height="25" Width="40" FontSize="15"
+                 HorizontalAlignment="Right" Background="Transparent" BorderThickness="0"
+                 Command="{Binding ExitCommand}" Focusable="False">
             <Path Data="M0,0 L10,10 M10,0 L0,10" Stroke="Black" StrokeThickness="1"  />
         </Button>
         <Button Name="BtnResize" Grid.Row="0"  Height="25" Width="40" FontSize="15"
-                HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" Margin="0,0,40,0" Click="BtnResize_Click" Focusable="False">
+                HorizontalAlignment="Right" Background="Transparent" BorderThickness="0"
+                Margin="0,0,40,0"  Focusable="False" Command="{Binding ResizeCommand}">
             <Rectangle Fill="Transparent" Stroke="Black" Width="10" Height="10"  />
         </Button>
         <Button Name="BtnHidd" Grid.Row="0"  Height="25" Width="40" FontSize="15" 
-                HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" Margin="0,0,80,0" Focusable="False">
-            <Line Fill="Transparent" Stroke="Black" StrokeThickness="1" X1="0" Y1="0" X2="10" Y2="0" />
+                HorizontalAlignment="Right" Background="Transparent" BorderThickness="0"
+                Margin="0,0,80,0" Focusable="False" Command="{Binding HiddenCommand}" >
+            <Line Fill="Transparent" Stroke="Black" StrokeThickness="1"
+                  X1="0" Y1="0" X2="10" Y2="0" />
         </Button>
-        <Button Name="BtnImport" Grid.Row="0" Content="Import"  Height="25" Width="50" FontSize="15" 
-                HorizontalAlignment="left" Background="Transparent" BorderThickness="0" Margin="0,0,0,0" Focusable="False" />
-        <Button Name="BtnGenerate" Grid.Row="0" Content="Ai Generate"  Height="25" Width="80" FontSize="15" 
-                HorizontalAlignment="left" Background="Transparent" BorderThickness="0" Margin="50,0,0,0" Focusable="False" />
-        <Button Name="BtnStatistic" Grid.Row="0" Content="Statistics"  Height="25" Width="80" FontSize="15" 
-            HorizontalAlignment="left" Background="Transparent" BorderThickness="0" Margin="130,0,0,0" Focusable="False" />
+        <Menu  FontSize="17" HorizontalAlignment="Left" Background="Transparent" >
+            <MenuItem Name="Profile" Header="Profile" Height="25">
+                <MenuItem Header="Info"/>
+                <MenuItem Header="Stat"/>
+                <MenuItem Header="Friends"/>
+            </MenuItem>
+            <MenuItem  Name="MenuModes" Header="Modes" Height="25">
+                <MenuItem Style="{StaticResource MenuStyleModeFile}" Name="Import"
+                          Header="From file" 
+                          Command="{Binding ModeSelect}"
+                          CommandParameter="{x:Static modes:Modes.File}"/>
+                <MenuItem Style="{StaticResource MenuStyleModeAi}" Name="AiGenerate"
+                          Header="Ai Generate"
+                          Command="{Binding ModeSelect}"
+                          CommandParameter="{x:Static modes:Modes.Ai}"/>
+                <MenuItem Style="{StaticResource MenuStyleModeRandom}" Name="Random"
+                          Header="Random"
+                           Command="{Binding ModeSelect}"
+                           CommandParameter="{x:Static modes:Modes.Random}"/>
+            </MenuItem>
+            
+        </Menu>
+       
 
     </Grid>
 </UserControl>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\App.xaml
-4577547494
+9-44321684
 
-121775823349
+301264955863
 2061601768811
-MainWindow.xaml;Views\UserControls\MainPlace.xaml;Views\UserControls\TimerUi.xaml;Views\UserControls\Topmenu.xaml;
+MainWindow.xaml;Resource\Styles\OverlayStyles.xaml;Resource\Styles\StyleMenu.xaml;Resource\Styles\TemplayteLeftPanel.xaml;Views\UserControls\LeftPanelAi.xaml;Views\UserControls\LeftPanelFile.xaml;Views\UserControls\MainPlace.xaml;Views\UserControls\TimerUi.xaml;Views\UserControls\Topmenu.xaml;
 
-False
+True
 

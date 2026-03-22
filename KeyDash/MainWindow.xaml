@@ -13,22 +13,21 @@
         WindowStyle="None">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="25"/>
+            <RowDefinition  Height="25"/>
             <RowDefinition Height="100*"/>
             <RowDefinition Height="70"/>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="1">
+        <Grid Style="{StaticResource OverlayStyleMainWindow}" Grid.Row="1">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="260"/>
+                <ColumnDefinition Width="300"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="220"/>
             </Grid.ColumnDefinitions>
-            <userControls:MainPlace  Grid.Column="1"/>
+            <ContentControl  Content="{Binding LeftPanel}" Grid.Column="0"/>
+            <userControls:MainPlace x:Name="mainPlace"  Grid.Column="1"
+                                    DataContext="{Binding MainPlace}"/>
         </Grid>
-        <userControls:Topmenu/>
-
+        <userControls:Topmenu x:Name="topMenu" DataContext="{Binding Menu}"/>
+        <userControls:TimerUi Grid.Row="1" x:Name="Timers" DataContext="{Binding Timer}"  />
     </Grid>
-
-
-
 </Window>
