@@ -4,15 +4,31 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:KeyDash.Views.UserControls"
+             xmlns:custom="clr-namespace:KeyDash.Controls"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <StackPanel   Name="Exp"  Grid.Column="0"
+    <StackPanel Background="white"  Name="Exp"  Grid.Column="0"
                 VerticalAlignment="Center" Margin="10,0,0,0">
         <Expander Margin="0,10" FontSize="35" Header="General">
-            <StackPanel  Margin="10,5">
-                <Label FontSize="25" Content="Кол-во символов"/>
-                <Label FontSize="25" Content="Язык генерации"/>
-            </StackPanel>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Height="auto"  HorizontalAlignment="Left" FontSize="25" Grid.Column="0"
+                       Margin="50,0,0,0" Content="кол-во символов"/>
+                <custom:NumericUpDown CornerRadius="8" Grid.Column="1" HorizontalAlignment="Right"/>
+                <Label Height="auto" HorizontalAlignment="Left" FontSize="25" Grid.Column="0" Grid.Row="1"
+                       Margin="50,0,0,0" Content="Language"/>
+                <ComboBox Grid.Row="1" Grid.Column="1">
+                    <ComboBoxItem Content="Ru" IsSelected="True"/>
+                    <ComboBoxItem Content="En" IsSelected="false" />
+                </ComboBox>
+            </Grid>
         </Expander>
         <Expander Margin="0,10" FontSize="35" Header="Complexity Text">
             <StackPanel  Margin="10,5">
