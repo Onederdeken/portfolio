@@ -11,8 +11,9 @@
         <StackPanel Orientation="Horizontal">
             <Label FontSize="20" Content="Выберите файл"/>
             <Button FontSize="20" Content="📁" Padding="5.2" Background="Transparent"
-                BorderThickness="0"/>
+                BorderThickness="0"
+                Command="{Binding GetFileCommand}"/>
         </StackPanel>
-        <TextBlock FontSize="20" Text="Error"/>
+        <TextBlock FontSize="20" Text="{Binding Error}"/>
     </StackPanel>
 </UserControl>

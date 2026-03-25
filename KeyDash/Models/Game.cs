@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows.Input;
 
 namespace KeyDash.Models
 {
@@ -12,6 +13,7 @@ namespace KeyDash.Models
         private bool _overlayTimer = false;
         private bool _overlayMainWindow = true;
         private bool _isText = false;
+        private bool _startTimer = false;
         private EventBus eventBus;
         private Modes _modes;
         public Game( EventBus eventBus, Modes modes)
@@ -20,6 +22,8 @@ namespace KeyDash.Models
             this.Modes = modes;
             
         }
+        public bool StartTimer { get { return _startTimer; } set { _startTimer = value; OnPropertyChanged(); }  }
+        public int indexText = 0;
         public bool IsText {  get { return _isText; } set { _isText = value; OnPropertyChanged(); } }
         public bool ContinueGame { get { return _continueGame; } set { _continueGame = value; OnPropertyChanged(); }}
         public Modes Modes
@@ -37,7 +41,7 @@ namespace KeyDash.Models
         }
         public bool StartGame
         {
-            get { return _startGame; } set { _startGame = value; OnPropertyChanged(); }
+            get { CommandManager.InvalidateRequerySuggested(); return _startGame; } set { _startGame = value; OnPropertyChanged(); }
         }
        
     }

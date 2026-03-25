@@ -14,7 +14,7 @@ namespace KeyDash.ViewModels
         public RelayCommand ResizeCommand { get; set;  }
         public RelayCommand HiddenCommand { get; set; }
         public RelayCommand ModeSelect { get; private set; }
-        private EventBus EventBus { get; }
+        private EventBus EventBus { get;  }
         private Game gameoptions;
         public Game GameOptions
         {
@@ -37,7 +37,7 @@ namespace KeyDash.ViewModels
             {
                 switch (modes)
                 {
-                    case Modes.File: EventBus.Publish(new ChangedModesSignal() { LeftPanel = new ViewModelLeftPanelFile(), mode = Modes.File}); break;
+                    case Modes.File: EventBus.Publish(new ChangedModesSignal() { LeftPanel = new ViewModelLeftPanelFile(EventBus), mode = Modes.File}); break;
                     case Modes.Ai: EventBus.Publish(new ChangedModesSignal() { LeftPanel = new ViewModelLeftPanelAi(), mode = Modes.Ai}); break;
                     case Modes.Random: EventBus.Publish(new ChangedModesSignal() { LeftPanel = new ViewModelLeftPanelRandom(), mode = Modes.Random}); break;
                 }

@@ -19,7 +19,7 @@ public partial class App : Application
         var game = new Game(eventbus, Modes.None);
        
         var vmtopmenu = new ViewModelTopMenu(game, eventbus);
-        var vmmainplace = new ViewModelMainPlace();
+        var vmmainplace = new ViewModelMainPlace(eventbus);
         var vmtimer = new ViewModelTimer(eventbus);
         var vmMain = new ViewModelMainWindow(game, vmmainplace,vmtopmenu,vmtimer, eventbus);
         var mainwindow = new MainWindow();

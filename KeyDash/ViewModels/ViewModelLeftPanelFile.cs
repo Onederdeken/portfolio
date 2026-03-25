@@ -1,22 +1,53 @@
 ﻿using KeyDash.Abstractions;
+using KeyDash.Models;
 using KeyDash.MVVM;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Microsoft.Win32;
+using System.IO;
+using System.Windows;
 
 namespace KeyDash.ViewModels
 {
     class ViewModelLeftPanelFile:BaseLeftPanel
     {
-        private String _filepath;
-        public String FilePath
+        private FileTextModel fileTextModel;
+        private string error;
+        public string Error { get { return error; } set { error = value; OnPropertyChanged(); }  }
+
+        public RelayCommand GetFileCommand { get; private set; }
+        public EventBus EventBus { get; private set; }
+        private FileTextModel ftm;
+       
+        public ViewModelLeftPanelFile(EventBus eventBus)
         {
-            get {  return _filepath; } set { _filepath = value; OnPropertyChanged();  }
+            ftm = new FileTextModel();
+            this.EventBus = eventBus;
+            GetFileCommand = new RelayCommand(_=>GetFile(), canEx=>CanGetFile());
+
         }
-
-        public ViewModelLeftPanelFile()
+        private async void GetFile()
         {
+            OpenFileDialog ofd = new OpenFileDialog();
+            if(ofd.ShowDialog() == true)
+            {
+                ftm.path = ofd.FileName;
+                await Task.Run(GetText);
+                EventBus.Publish(ftm);
 
+            }
+        }
+        private bool CanGetFile() => true;
+        private async void GetText()
+        {
+            try
+            {
+                ftm.text = File.ReadAllText(ftm.path);
+                
+            }
+            catch (Exception ex)
+            {
+                ftm.error = ex.Message;
+            }
+            
         }
     }
 }

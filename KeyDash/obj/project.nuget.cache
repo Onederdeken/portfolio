@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p3DgOXM/p4g=",
+  "dgSpecHash": "gBXkoHesYt0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\KeyDash.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Karpacho Kapitovsky\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.142\\microsoft.xaml.behaviors.wpf.1.1.142.nupkg.sha512"
+  ],
   "logs": []
 }

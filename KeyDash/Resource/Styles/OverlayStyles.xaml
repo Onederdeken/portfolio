@@ -11,7 +11,7 @@
     <Style x:Key="OverlayStyleTimer" TargetType="FrameworkElement">
         <Setter Property="Visibility" Value="Collapsed"/>
         <Style.Triggers>
-            <DataTrigger Binding="{Binding DataContext.GameOptions.OverlayTimer, RelativeSource={RelativeSource AncestorType=Window}}" Value="true">
+            <DataTrigger  Binding="{Binding DataContext.GameOptions.OverlayTimer, RelativeSource={RelativeSource AncestorType=Window}}" Value="true">
                 <Setter Property="Visibility" Value="Visible"/>
             </DataTrigger>
         </Style.Triggers>
@@ -24,4 +24,5 @@
             </DataTrigger>
         </Style.Triggers>
     </Style>
+    
 </ResourceDictionary>

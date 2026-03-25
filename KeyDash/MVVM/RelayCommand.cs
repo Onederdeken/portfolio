@@ -16,7 +16,8 @@ namespace KeyDash.MVVM
 
         public bool CanExecute(object? parameter)
         {
-           return canExecute == null || canExecute(parameter);
+          
+            return canExecute == null || canExecute(parameter);
         }
 
         public void Execute(object? parameter)
@@ -24,7 +25,7 @@ namespace KeyDash.MVVM
             execute(parameter);
         }
 
-        public RelayCommand(Action<object> execute, Func<object, bool> canEx = null)
+        public RelayCommand(Action<object> execute ,Func<object, bool> canEx = null)
         {
             this.execute = execute;
             this.canExecute = canEx;
