@@ -36,6 +36,8 @@
             <ContentControl  Content="{Binding LeftPanel}" Grid.Column="0"/>
             <userControls:MainPlace x:Name="mainPlace"  Grid.Column="1"
                                     DataContext="{Binding MainPlace}"/>
+            <userControls:StatisticPanel DataContext="{Binding StatisticPanel}" Grid.Row="1" Grid.Column="2"/>
+
         </Grid>
         <userControls:Topmenu x:Name="topMenu" DataContext="{Binding Menu}"/>
         <userControls:TimerUi Grid.Row="1" x:Name="Timers" DataContext="{Binding Timer}"  />

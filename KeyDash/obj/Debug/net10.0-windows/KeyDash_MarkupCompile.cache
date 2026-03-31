@@ -1,5 +1,5 @@
 ﻿KeyDash
-
+1.0.0.0
 
 winexe
 C#
@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\App.xaml
-10159984085
+11-1851729717
 
-34-535246221
+40-757598764
 207-1883158910
-MainWindow.xaml;Resource\Styles\OverlayStyles.xaml;Resource\Styles\StyleMenu.xaml;Resource\Styles\TemplayteLeftPanel.xaml;Themes\Generic.xaml;Views\UserControls\LeftPanelAi.xaml;Views\UserControls\LeftPanelFile.xaml;Views\UserControls\MainPlace.xaml;Views\UserControls\TimerUi.xaml;Views\UserControls\Topmenu.xaml;
+MainWindow.xaml;Resource\Styles\OverlayStyles.xaml;Resource\Styles\StyleMenu.xaml;Resource\Styles\TemplayteLeftPanel.xaml;Themes\Generic.xaml;Views\UserControls\LeftPanelAi.xaml;Views\UserControls\LeftPanelFile.xaml;Views\UserControls\MainPlace.xaml;Views\UserControls\StatisticPanel.xaml;Views\UserControls\TimerUi.xaml;Views\UserControls\Topmenu.xaml;
 
-False
+True
 

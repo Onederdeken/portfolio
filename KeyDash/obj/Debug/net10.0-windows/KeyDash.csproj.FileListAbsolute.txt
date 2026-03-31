@@ -38,3 +38,5 @@ C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\
 C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\bin\Debug\net10.0-windows\Microsoft.Xaml.Behaviors.dll
 C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\KeyDash.csproj.AssemblyReference.cache
 C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\KeyDash.csproj.Up2Date
+C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\Views\UserControls\StatisticPanel.g.cs
+C:\Users\Karpacho Kapitovsky\source\portfolio\KeyDash\obj\Debug\net10.0-windows\Views\UserControls\StatisticPanel.baml

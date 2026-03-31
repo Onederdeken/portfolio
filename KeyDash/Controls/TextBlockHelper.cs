@@ -20,6 +20,7 @@ namespace KeyDash.Controls
 
         public static void SetFullText(UIElement element, string value) => element.SetValue(FullTextProperty, value);
         public static string GetFullText(UIElement element) => (string)element.GetValue(FullTextProperty);
+        
         public static void PropertyChanged(DependencyObject o, DependencyPropertyChangedEventArgs args)
         {
             if(o is TextBlock tb)
@@ -31,38 +32,36 @@ namespace KeyDash.Controls
                 {
                     for (int i = 0; i < fullText.Length; i++)
                     {
+                        string displayChar = fullText[i].ToString();
+                        var run = new Run(displayChar);
                         if (i < inputtext.Length)
                         {
                             if (string.Equals(inputtext[i], fullText[i]))
-                            {
-                                var run = new Run(fullText[i].ToString());
-                                run.Background = Brushes.Gray;
+                            {   if (displayChar == " ") run.Background = Brushes.Green;
+                                else run.Background = Brushes.Gray;
                                 run.Foreground = Brushes.Green;
                                 tb.Inlines.Add(run);
                             }
                             else
                             {
-                                var run = new Run(fullText[i].ToString());
-                                run.Background = Brushes.Gray;
+                                if (displayChar == " ") run.Background = Brushes.Red;
+                                else run.Background = Brushes.Gray;
+                               
                                 run.Foreground = Brushes.Red;
                                 tb.Inlines.Add(run);
                             }
-
                         }
                         else if (i == inputtext.Length)
                         {
-                            var run = new Run(fullText[i].ToString());
                             run.Background = Brushes.Gray;
                             run.Foreground = Brushes.White;
-                            tb.Inlines.Add(run);
-                            
+                            tb.Inlines.Add(run); 
                         }
                         else
                         {
-                            var run2 = new Run(fullText[i].ToString());
-                            run2.Background = Brushes.Transparent;
-                            run2.Foreground = Brushes.Black;
-                            tb.Inlines.Add(run2);
+                            run.Background = Brushes.Transparent;
+                            run.Foreground = Brushes.Black;
+                            tb.Inlines.Add(run);
                            
                         }
                     }

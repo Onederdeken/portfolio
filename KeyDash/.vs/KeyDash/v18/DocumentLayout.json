@@ -3,92 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\viewmodels\\viewmodelmainplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:viewmodels\\viewmodelmainplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\viewmodels\\viewmodelstatisticpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:viewmodels\\viewmodelstatisticpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\models\\statisticmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:models\\statisticmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\viewmodels\\viewmodelmainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:viewmodels\\viewmodelmainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\controls\\textblockhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:controls\\textblockhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\views\\usercontrols\\statisticpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:views\\usercontrols\\statisticpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\signals\\endtimersignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:signals\\endtimersignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\models\\partfulltextmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:models\\partfulltextmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\signals\\endgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:signals\\endgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\viewmodels\\viewmodeltimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:viewmodels\\viewmodeltimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\viewmodels\\viewmodelleftpanelrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:viewmodels\\viewmodelleftpanelrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\models\\inputchar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:models\\inputchar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\views\\usercontrols\\mainplace.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:views\\usercontrols\\mainplace.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\viewmodels\\viewmodelleftpanelfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:viewmodels\\viewmodelleftpanelfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\controls\\numericupdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:controls\\numericupdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\signals\\startgameeventsignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:signals\\startgameeventsignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\mvvm\\eventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:mvvm\\eventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\models\\modeltimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:models\\modeltimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\signals\\changedmodessignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:signals\\changedmodessignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\resource\\styles\\overlaystyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:resource\\styles\\overlaystyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\viewmodels\\viewmodeltopmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:viewmodels\\viewmodeltopmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\viewmodels\\viewmodelmainplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:viewmodels\\viewmodelmainplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,280 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EndGame.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Signals\\EndGame.cs",
-              "RelativeDocumentMoniker": "Signals\\EndGame.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Signals\\EndGame.cs",
-              "RelativeToolTip": "Signals\\EndGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T18:31:45.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ViewModelTimer.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelTimer.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ViewModelTimer.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelTimer.cs",
-              "RelativeToolTip": "ViewModels\\ViewModelTimer.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T18:28:44.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PartFullTextModel.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Models\\PartFullTextModel.cs",
-              "RelativeDocumentMoniker": "Models\\PartFullTextModel.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Models\\PartFullTextModel.cs",
-              "RelativeToolTip": "Models\\PartFullTextModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T17:26:30.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "StatisticModel.cs",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Models\\StatisticModel.cs",
+              "RelativeDocumentMoniker": "Models\\StatisticModel.cs",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Models\\StatisticModel.cs",
+              "RelativeToolTip": "Models\\StatisticModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:51:37.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ViewModelMainWindow.cs",
               "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelMainWindow.cs",
               "RelativeDocumentMoniker": "ViewModels\\ViewModelMainWindow.cs",
               "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelMainWindow.cs",
               "RelativeToolTip": "ViewModels\\ViewModelMainWindow.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAcwI0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAQwHkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T19:44:09.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Models\\Game.cs",
-              "RelativeDocumentMoniker": "Models\\Game.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Models\\Game.cs",
-              "RelativeToolTip": "Models\\Game.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T22:01:14.017Z",
+              "WhenOpened": "2026-03-31T00:47:16.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ViewModelStatisticPanel.cs",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelStatisticPanel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ViewModelStatisticPanel.cs",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelStatisticPanel.cs",
+              "RelativeToolTip": "ViewModels\\ViewModelStatisticPanel.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAnwDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T20:04:04.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ViewModelMainPlace.cs",
               "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelMainPlace.cs",
               "RelativeDocumentMoniker": "ViewModels\\ViewModelMainPlace.cs",
               "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelMainPlace.cs",
               "RelativeToolTip": "ViewModels\\ViewModelMainPlace.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwCoAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T22:04:04.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TextBlockHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Controls\\TextBlockHelper.cs",
-              "RelativeDocumentMoniker": "Controls\\TextBlockHelper.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Controls\\TextBlockHelper.cs",
-              "RelativeToolTip": "Controls\\TextBlockHelper.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T12:05:16.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StartGameEventSignal.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Signals\\StartGameEventSignal.cs",
-              "RelativeDocumentMoniker": "Signals\\StartGameEventSignal.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Signals\\StartGameEventSignal.cs",
-              "RelativeToolTip": "Signals\\StartGameEventSignal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T22:02:52.977Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EndTimerSignal.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Signals\\EndTimerSignal.cs",
-              "RelativeDocumentMoniker": "Signals\\EndTimerSignal.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Signals\\EndTimerSignal.cs",
-              "RelativeToolTip": "Signals\\EndTimerSignal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T22:02:49.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ModelTimer.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Models\\ModelTimer.cs",
-              "RelativeDocumentMoniker": "Models\\ModelTimer.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Models\\ModelTimer.cs",
-              "RelativeToolTip": "Models\\ModelTimer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T22:03:03.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainPlace.xaml",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Views\\UserControls\\MainPlace.xaml",
-              "RelativeDocumentMoniker": "Views\\UserControls\\MainPlace.xaml",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Views\\UserControls\\MainPlace.xaml",
-              "RelativeToolTip": "Views\\UserControls\\MainPlace.xaml",
+              "Title": "StatisticPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Views\\UserControls\\StatisticPanel.xaml",
+              "RelativeDocumentMoniker": "Views\\UserControls\\StatisticPanel.xaml",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Views\\UserControls\\StatisticPanel.xaml",
+              "RelativeToolTip": "Views\\UserControls\\StatisticPanel.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-24T22:03:59.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ViewModelLeftPanelRandom.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelLeftPanelRandom.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ViewModelLeftPanelRandom.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelLeftPanelRandom.cs",
-              "RelativeToolTip": "ViewModels\\ViewModelLeftPanelRandom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T12:56:10.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InputChar.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Models\\InputChar.cs",
-              "RelativeDocumentMoniker": "Models\\InputChar.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Models\\InputChar.cs",
-              "RelativeToolTip": "Models\\InputChar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T22:06:11.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-24T19:58:47.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ViewModelLeftPanelFile.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelLeftPanelFile.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ViewModelLeftPanelFile.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelLeftPanelFile.cs",
-              "RelativeToolTip": "ViewModels\\ViewModelLeftPanelFile.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCoAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T21:14:13.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ChangedModesSignal.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Signals\\ChangedModesSignal.cs",
-              "RelativeDocumentMoniker": "Signals\\ChangedModesSignal.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Signals\\ChangedModesSignal.cs",
-              "RelativeToolTip": "Signals\\ChangedModesSignal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T22:02:45.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "NumericUpDown.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Controls\\NumericUpDown.cs",
-              "RelativeDocumentMoniker": "Controls\\NumericUpDown.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Controls\\NumericUpDown.cs",
-              "RelativeToolTip": "Controls\\NumericUpDown.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEcAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T22:50:20.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EventBus.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MVVM\\EventBus.cs",
-              "RelativeDocumentMoniker": "MVVM\\EventBus.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MVVM\\EventBus.cs",
-              "RelativeToolTip": "MVVM\\EventBus.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T22:21:26.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ViewModelTopMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelTopMenu.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ViewModelTopMenu.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelTopMenu.cs",
-              "RelativeToolTip": "ViewModels\\ViewModelTopMenu.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T21:13:59.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MVVM\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "MVVM\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MVVM\\RelayCommand.cs",
-              "RelativeToolTip": "MVVM\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T21:04:13.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T20:39:49.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "OverlayStyles.xaml",
-              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Resource\\Styles\\OverlayStyles.xaml",
-              "RelativeDocumentMoniker": "Resource\\Styles\\OverlayStyles.xaml",
-              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Resource\\Styles\\OverlayStyles.xaml",
-              "RelativeToolTip": "Resource\\Styles\\OverlayStyles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-24T21:21:06.761Z",
+              "WhenOpened": "2026-03-28T20:00:29.436Z",
               "EditorCaption": ""
             }
           ]

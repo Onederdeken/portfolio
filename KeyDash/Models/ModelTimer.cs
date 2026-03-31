@@ -14,7 +14,8 @@ namespace KeyDash.Models
     public enum Operation
     {
         Plus,
-        Minus
+        Minus,
+        Time
     }
 
 }

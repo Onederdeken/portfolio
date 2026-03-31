@@ -33,7 +33,7 @@ namespace KeyDash.ViewModels
         {
             this.eventBus = eventBus;
             this.eventBus.Subcribe<FileTextModel>( param => setText(param));
-            this.eventBus.Subcribe<InputChar>(param => GetChar(param));
+            this.eventBus.Subcribe<InputChar>(param => GetInputChar(param));
             
         }
         private void setText(FileTextModel ftm)
@@ -50,61 +50,28 @@ namespace KeyDash.ViewModels
             {
                 tempText += partFullText.FullText[i] + " ";
             }
-            partFullText.maxindexpart = tempText.Length;
+            partFullText.maxindexpart = tempText.Length-1;
             
-            Text = tempText;
+            Text = tempText.TrimEnd();
             partFullText.indexpart++;
             
 
         }
-        private void GetChar(InputChar inputChar)
+        private void GetInputChar(InputChar inputChar)
         {
             if (string.IsNullOrEmpty(inputChar.Item))
             {
-
                 if(inputChar.workKey == WorkKey.BackSpace && !String.IsNullOrEmpty(InputText))
                 {
                     InputText = InputText.Remove(InputText.Length-1);
                     partFullText.indexchar--;
                 }
             }
-            else if(partFullText.indexchar >= partFullText.maxindexpart)
+            else if(partFullText.indexchar == partFullText.maxindexpart)
             {
                 if(inputChar.workKey == WorkKey.Space)
                 {
-                    partFullText.indexchar = 0;
-                    var tempText = String.Empty;
-                    Debug.WriteLine($"countPart:{partFullText.countPart} ostatok:{partFullText.ostatok} indexofpart:{partFullText.indexpart}, longtext:{partFullText.FullText.Length} ");
-                    
-                    if (partFullText.indexpart-1 == partFullText.countPart && partFullText.ostatok != 0)
-                    {
-                        for (int i = partFullText.countWord * partFullText.countPart; i < partFullText.FullText.Length; i++)
-                        {
-                            tempText += partFullText.FullText[i] + " ";
-                        }
-                        partFullText.indexpart++;
-                    }
-                    else if (partFullText.indexpart-1 > partFullText.countPart)
-                    {
-                        Text = string.Empty;
-                        InputText = string.Empty;
-                        eventBus.Publish(new EndGame()); return;
-                    }
-                    else
-                    {
-                        for (int i = partFullText.countWord * (partFullText.indexpart - 1); i < partFullText.countWord * partFullText.indexpart; i++)
-                        {
-                            tempText += partFullText.FullText[i] + " ";
-                        }
-                        partFullText.indexpart++;
-                    }
-                    
-                    partFullText.maxindexpart = tempText.Length;
-                    Text = tempText;
-                    InputText = String.Empty;
-                    
-                }
-                
+                   UpLoadText();                }
             }
             else
             {
@@ -114,6 +81,40 @@ namespace KeyDash.ViewModels
             }
 
            
+        }
+        private void UpLoadText()
+        {
+            partFullText.indexchar = 0;
+            var tempText = String.Empty;
+            Debug.WriteLine($"countPart:{partFullText.countPart} ostatok:{partFullText.ostatok} indexofpart:{partFullText.indexpart}, longtext:{partFullText.FullText.Length} ");
+
+            if (partFullText.indexpart - 1 == partFullText.countPart && partFullText.ostatok != 0)
+            {
+                for (int i = partFullText.countWord * partFullText.countPart; i < partFullText.FullText.Length; i++)
+                {
+                    tempText += partFullText.FullText[i] + " ";
+                }
+                partFullText.indexpart++;
+            }
+            else if (partFullText.indexpart - 1 > partFullText.countPart)
+            {
+                Text = string.Empty;
+                InputText = string.Empty;
+                eventBus.Publish(new EndGame()); return;
+            }
+            else
+            {
+                for (int i = partFullText.countWord * (partFullText.indexpart - 1); i < partFullText.countWord * partFullText.indexpart; i++)
+                {
+                    tempText += partFullText.FullText[i] + " ";
+                }
+                partFullText.indexpart++;
+            }
+
+            partFullText.maxindexpart = tempText.Length-1;
+            Text = tempText.TrimEnd();
+            InputText = String.Empty;
+
         }
 
     }

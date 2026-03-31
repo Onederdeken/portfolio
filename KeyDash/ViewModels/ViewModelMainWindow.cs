@@ -30,6 +30,8 @@ namespace KeyDash.ViewModels
         {
             get { return _mainPlace; } set { _mainPlace = value; OnPropertyChanged(); }
         }
+        private ViewModelStatisticPanel _statisticPanel;
+        public ViewModelStatisticPanel StatisticPanel { get { return _statisticPanel; } set { _statisticPanel = value; OnPropertyChanged(); }  }
         private Game gameoptions;
         public Game GameOptions
         {
@@ -40,13 +42,14 @@ namespace KeyDash.ViewModels
         public RelayCommand PreviewKeyDown { get; private set; }
 
 
-        public ViewModelMainWindow( Game game, ViewModelMainPlace vmmainplace, ViewModelTopMenu vmtopmenu, ViewModelTimer vmtimer, EventBus eventBus)
+        public ViewModelMainWindow( Game game, ViewModelMainPlace vmmainplace, ViewModelTopMenu vmtopmenu, ViewModelTimer vmtimer, ViewModelStatisticPanel viewModelStatisticPanel ,EventBus eventBus)
         {
             this.eventBus = eventBus;
             this.GameOptions = game;
             Menu = vmtopmenu;
             _timer = vmtimer;
             _mainPlace = vmmainplace;
+            this.StatisticPanel = viewModelStatisticPanel;
             StartGame = new RelayCommand(execute=>start(), canEx=>CanStart());
             PreviewTextInput = new RelayCommand(f => Window_PreviewTextDown((TextCompositionEventArgs)f), canEx=>Can_textDown());
             PreviewKeyDown = new RelayCommand(f => Window_PreviewKeyDown((KeyEventArgs)f));
@@ -67,7 +70,7 @@ namespace KeyDash.ViewModels
             GameOptions.OverlayTimer = false;
             GameOptions.OverlayMainWindow = true;
             GameOptions.ContinueGame = true;
-
+            eventBus.Publish(new StartTimerEventSignal());
         }
         private void ChangedMode(ChangedModesSignal changedModesSignal)
         {
@@ -101,7 +104,7 @@ namespace KeyDash.ViewModels
                     {
                         Item = arg.Text,
                         index = gameoptions.indexText,
-                        workKey = WorkKey.None,
+                        workKey = WorkKey.Char,
                     };
                     GameOptions.indexText++;
                     eventBus.Publish(InputChar);
@@ -138,6 +141,7 @@ namespace KeyDash.ViewModels
                     Item = " ",
                     workKey = WorkKey.Space,
                 });
+                GameOptions.indexText++;
                 arg.Handled = true;
             }
             else if (arg.Key == Key.Tab && gameoptions.StartGame) return;

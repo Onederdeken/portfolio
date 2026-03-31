@@ -2,6 +2,8 @@
 using KeyDash.Models;
 using KeyDash.MVVM;
 using KeyDash.Signals;
+using System.Diagnostics;
+using System.Windows.Documents;
 using ITimer = KeyDash.Abstractions.ITimer;
 using SysTimer =  System.Windows.Threading.DispatcherTimer;
 
@@ -14,43 +16,51 @@ namespace KeyDash.ViewModels
         private EventBus EventBus { get;}
         public ModelTimer timer;
         private Game game;
-        private readonly SysTimer Dispatchertimer = new SysTimer();
+        public SysTimer Dispatchertimer { get;  set; }
+       
         public int Seconds
         {
             get { return _seconds; }
             set
             {
-                _seconds=value;
+                _seconds = value;
                 OnPropertyChanged();
             }
         }
 
         public ViewModelTimer(EventBus eventBus)
         {
-            Dispatchertimer.Tick += Tick;
+            Dispatchertimer = new SysTimer();
             Dispatchertimer.Interval = TimeSpan.FromSeconds(1);
             EventBus = eventBus;
             EventBus.Subcribe<StartGameEventSignal>(e => startTime(e));
         }
+       
 
-        public void startTime(StartGameEventSignal startGameEvent)
+        public void startTime<T>(T startGameEvent)
         {
-            timer = startGameEvent.modeltimer;
-            Seconds = timer.startTime;
-            Dispatchertimer.Start();
-            
+            if(startGameEvent is StartGameEventSignal startGame)
+            {
+                Dispatchertimer.Tick += Tick;
+                timer = startGame.modeltimer;
+                Seconds = timer.startTime;
+                Dispatchertimer.Start();
+            }
         }
-
         private void Tick(object? sender, EventArgs e)
         {
-            if (timer.operation == Operation.Minus) Seconds--;
-            else if (timer.operation == Operation.Plus) Seconds++;
-
             if (Seconds == timer.endTime)
             {
-                Dispatchertimer.Stop();
-                EventBus.Publish(new EndTimerSignal());
+                Stop();
             }
+            else Seconds--;
+        }
+
+        public void Stop()
+        {
+            Dispatchertimer.Stop();
+            EventBus.Publish(new EndTimerSignal());
+            Dispatchertimer.Tick -= Tick;
         }
     }
 }

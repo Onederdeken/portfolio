@@ -13,7 +13,7 @@ namespace KeyDash.Models
     }
     public enum WorkKey
     {
-        None,
+        Char,
         BackSpace,
         Space
     }
