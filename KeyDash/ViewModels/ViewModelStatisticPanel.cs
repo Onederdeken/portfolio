@@ -3,6 +3,7 @@ using KeyDash.Controls;
 using KeyDash.Models;
 using KeyDash.MVVM;
 using KeyDash.Signals;
+using System.Data;
 using System.Diagnostics;
 using static System.Net.WebRequestMethods;
 using ITimer = KeyDash.Abstractions.ITimer;
@@ -12,31 +13,36 @@ namespace KeyDash.ViewModels
     public class ViewModelStatisticPanel:ViewModelBase, ITimer
     {
         private EventBus EventBus { get; }
-        private Double percentErrors;
-        private int errors;
-        private double velocity;
-        private int _seconds;
-        private string FullText;
-        private int IndexText = 0;
-        private Stopwatch stopwatch = new Stopwatch();
-        private double accuracy;
         private StatisticModel statM = new StatisticModel();
+        private Stopwatch stopwatch = new Stopwatch();
+        private int errors;
+        private double wpm;
+        private double cpm;
+        private string FullText;
+        private double accuracy;
+        private int totalerrors;
+        private double netaccuracy;
+        private double netwpm;
+        private double netcpm;
+
+        public double NetAccuracy { get { return netaccuracy; }  set { netaccuracy = value; OnPropertyChanged(); }   }
+        public int TotalErrors { get {  return totalerrors; } set { totalerrors = value; OnPropertyChanged(); } }
         public double Accuracy { get{  return accuracy; } set {  accuracy = value; OnPropertyChanged(); }  }
-        public Double PercentErrors { get { return percentErrors; } set { percentErrors = value*100; OnPropertyChanged(); }  }
+        public double CPM { get { return cpm; } set { cpm = value; OnPropertyChanged(); } }
+        public double NETCPM { get { return netcpm; } set { netcpm = value; OnPropertyChanged(); } }
+        public double NETWPM { get { return netwpm; } set { netwpm = value; OnPropertyChanged(); } }
         public int Errors { get { return errors; } set { errors =value; OnPropertyChanged(); }  }
-        public double Velocity { get { return velocity; } set { velocity = value; OnPropertyChanged(); }  }
+        public double WPM { get { return wpm; } set { wpm = value; OnPropertyChanged(); }  }
         public SysTimer Dispatchertimer { get; set; }
-        public int Seconds => (int)stopwatch.Elapsed.TotalSeconds;
+        public Double Seconds => (Double)stopwatch.Elapsed.TotalSeconds;
         public TimeSpan RightTime => TimeSpan.FromSeconds(Seconds);
 
         public ViewModelStatisticPanel(EventBus eventBus)
         {
-            
+           
             Dispatchertimer = new SysTimer();
-            Dispatchertimer.Interval = TimeSpan.FromMilliseconds(100);
+            Dispatchertimer.Interval = TimeSpan.FromMilliseconds(500);
             EventBus = eventBus;
-            PercentErrors = 0;
-            velocity = 0;
             EventBus.Subcribe<StartTimerEventSignal>(_ => startTime<StartTimerEventSignal>(_));
             EventBus.Subcribe<EndGame>(_=> Stop());
             this.EventBus.Subcribe<FileTextModel>(param => setText(param));
@@ -45,19 +51,55 @@ namespace KeyDash.ViewModels
         }
         private void CheckForError(InputChar? ic)
         {
-            if (ic.workKey == WorkKey.BackSpace) return;
-            if(ic.index < FullText.Length)
+            if (ic.workKey == WorkKey.BackSpace)
+            {
+                statM.CurrentTyped--;
+                if (statM.Characters[ic.index].IsCorrect)
+                {
+                    statM.CorrectCount--;
+                }
+                else
+                {
+                    Errors--;
+                }
+                statM.Characters.Remove(statM.Characters[ic.index]);
+            }
+            else if(ic.index < FullText.Length)
             {
                 statM.TotalTyped++;
-                if (ic.Item != FullText[ic.index].ToString()) Errors++;
-                else statM.CorrectCount++;
+                statM.CurrentTyped++;
+                var character = new InputEntry()
+                {
+                    index = ic.index,
+                    Char = ic.Item[0]
+                };
+                if (ic.Item != FullText[ic.index].ToString())
+                {
+                    TotalErrors++;
+                    Errors++;
+                    character.IsCorrect = false;
+                }
+                else
+                {
+                    statM.CorrectCount++;
+                    character.IsCorrect = true;
+                }
+                statM.Characters.Add(character); 
             }
         }
-        private void AccuracyCount()
+        private void UpdateStat()
         {
-            if(statM.TotalTyped > 0)
-            Accuracy = (double)(statM.TotalTyped - Errors)/statM.TotalTyped * 100;
+            if (statM.TotalTyped > 0)
+            {
+                Accuracy = (double)(statM.TotalTyped - TotalErrors) / statM.TotalTyped * 100;
+                NetAccuracy = (double)statM.CorrectCount / statM.CurrentTyped*100;
+            }
+            WPM = (double)((statM.TotalTyped / 5.0) / (Seconds / 60.0));
+            CPM = (double)(statM.TotalTyped / (Seconds / 60.0));
+            NETWPM = (double)((statM.CorrectCount / 5.0) / (Seconds / 60.0));
+            NETCPM = (double)(statM.CorrectCount / (Seconds / 60.0));
         }
+       
         private void setText(FileTextModel? param)  
         {
             FullText = param.text.Replace(Environment.NewLine, "");
@@ -65,7 +107,7 @@ namespace KeyDash.ViewModels
         #region timer
         public void startTime<T>(T g)
         {
-           
+            stopwatch.Start();
             Dispatchertimer.Tick += Tick;
             Dispatchertimer.Start();
         }
@@ -73,7 +115,8 @@ namespace KeyDash.ViewModels
         {
             OnPropertyChanged(nameof(Seconds));
             OnPropertyChanged(nameof(RightTime));
-            AccuracyCount();
+            UpdateStat();
+
         }
         public void Stop()
         {
@@ -81,7 +124,6 @@ namespace KeyDash.ViewModels
             stopwatch.Reset();
             Dispatchertimer.Stop();
             Dispatchertimer.Tick -= Tick;
-           
         }
         #endregion
         

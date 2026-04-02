@@ -70,7 +70,7 @@ namespace KeyDash.ViewModels
             GameOptions.OverlayTimer = false;
             GameOptions.OverlayMainWindow = true;
             GameOptions.ContinueGame = true;
-            eventBus.Publish(new StartTimerEventSignal());
+            
         }
         private void ChangedMode(ChangedModesSignal changedModesSignal)
         {
@@ -85,10 +85,6 @@ namespace KeyDash.ViewModels
             var startgameevent = new StartGameEventSignal();
             startgameevent.modeltimer = new ModelTimer() { startTime = 3, endTime = 0, operation = Operation.Minus };
             eventBus.Publish<StartGameEventSignal>(startgameevent);
-            
-
-           
-            
         }
         private bool CanStart()
         {
@@ -100,6 +96,7 @@ namespace KeyDash.ViewModels
             {
                 if(arg.Text != " ")
                 {
+                    if(gameoptions.indexText == 0) eventBus.Publish(new StartTimerEventSignal());
                     var InputChar = new InputChar()
                     {
                         Item = arg.Text,
