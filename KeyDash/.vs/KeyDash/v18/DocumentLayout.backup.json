@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\viewmodels\\viewmodelstatisticpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:viewmodels\\viewmodelstatisticpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\views\\usercontrols\\statisticpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:views\\usercontrols\\statisticpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\models\\statisticmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:models\\statisticmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\viewmodels\\viewmodelmainplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:viewmodels\\viewmodelmainplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\viewmodels\\viewmodelmainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:viewmodels\\viewmodelmainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\stat.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownPreview",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:stat.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownPreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|c:\\users\\karpacho kapitovsky\\source\\portfolio\\keydash\\stat.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{EA37DDB8-2CEC-51AD-A273-1A8006E9BF97}|KeyDash.csproj|solutionrelative:stat.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "stat.md [\u041F\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F]",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\stat.md",
+              "RelativeDocumentMoniker": "stat.md",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\stat.md [\u041F\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F]",
+              "RelativeToolTip": "stat.md [\u041F\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-01T14:57:45.128Z",
+              "EditorCaption": " [\u041F\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewModelMainWindow.cs",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelMainWindow.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ViewModelMainWindow.cs",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelMainWindow.cs",
+              "RelativeToolTip": "ViewModels\\ViewModelMainWindow.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAqwHkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T00:47:16.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewModelStatisticPanel.cs",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelStatisticPanel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ViewModelStatisticPanel.cs",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelStatisticPanel.cs",
+              "RelativeToolTip": "ViewModels\\ViewModelStatisticPanel.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAIwGMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T20:04:04.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewModelMainPlace.cs",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelMainPlace.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ViewModelMainPlace.cs",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\ViewModels\\ViewModelMainPlace.cs",
+              "RelativeToolTip": "ViewModels\\ViewModelMainPlace.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwBEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T22:04:04.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatisticPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Views\\UserControls\\StatisticPanel.xaml",
+              "RelativeDocumentMoniker": "Views\\UserControls\\StatisticPanel.xaml",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Views\\UserControls\\StatisticPanel.xaml",
+              "RelativeToolTip": "Views\\UserControls\\StatisticPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-28T20:00:29.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-31T18:09:03.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatisticModel.cs",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Models\\StatisticModel.cs",
+              "RelativeDocumentMoniker": "Models\\StatisticModel.cs",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\Models\\StatisticModel.cs",
+              "RelativeToolTip": "Models\\StatisticModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:51:37.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "stat.md",
+              "DocumentMoniker": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\stat.md",
+              "RelativeDocumentMoniker": "stat.md",
+              "ToolTip": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\stat.md",
+              "RelativeToolTip": "stat.md",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-31T04:13:45.447Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

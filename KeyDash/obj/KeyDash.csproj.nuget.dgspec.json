@@ -1,29 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\KeyDash.csproj": {}
+    "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\KeyDash.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\KeyDash.csproj": {
+    "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\KeyDash.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\KeyDash.csproj",
+        "projectUniqueName": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\KeyDash.csproj",
         "projectName": "KeyDash",
-        "projectPath": "c:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\KeyDash.csproj",
+        "projectPath": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\KeyDash.csproj",
         "packagesPath": "C:\\Users\\Karpacho Kapitovsky\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\obj\\",
+        "outputPath": "C:\\Users\\Karpacho Kapitovsky\\source\\portfolio\\KeyDash\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Karpacho Kapitovsky\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Karpacho Kapitovsky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net10.0-windows7.0": {
+          "net10.0-windows": {
+            "framework": "net10.0-windows7.0",
             "targetAlias": "net10.0-windows",
             "projectReferences": {}
           }
@@ -41,7 +48,8 @@
         "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
-        "net10.0-windows7.0": {
+        "net10.0-windows": {
+          "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "imports": [
             "net461",
