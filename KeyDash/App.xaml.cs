@@ -1,4 +1,7 @@
-﻿using System.Configuration;
+﻿using KeyDash.Models;
+using KeyDash.MVVM;
+using KeyDash.ViewModels;
+using System.Configuration;
 using System.Data;
 using System.Windows;
 
@@ -9,5 +12,22 @@ namespace KeyDash;
 /// </summary>
 public partial class App : Application
 {
+    protected override void OnStartup(StartupEventArgs e)
+    {
+        base.OnStartup(e);
+        var eventbus = new EventBus();
+        var game = new Game(eventbus, Modes.None);
+       
+        var vmtopmenu = new ViewModelTopMenu(game, eventbus);
+        var vmmainplace = new ViewModelMainPlace(eventbus);
+        var vmtimer = new ViewModelTimer(eventbus);
+        var statisticPanel = new ViewModelStatisticPanel(eventbus);
+        var vmMain = new ViewModelMainWindow(game, vmmainplace,vmtopmenu,vmtimer, statisticPanel, eventbus);
+        var mainwindow = new MainWindow();
+        mainwindow.DataContext = vmMain;
+        mainwindow.Show();
+
+       
+    }
 }
 
